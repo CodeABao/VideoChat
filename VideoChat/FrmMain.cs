@@ -59,7 +59,16 @@ namespace VideoChat
             _mp.Stop();
             _mp.Dispose();
             _libVLC.Dispose();
+        }
 
+        private void btnSound_Click(object sender, EventArgs e)
+        {
+            //TODO:Whisper语音转文字
+            //TODO:文字发送到RWKV
+            //TODO:RWKV给出反馈文字
+            //TODO:VSTS生成语音
+            //TODO:sadtalker生成视频并且播放
+            //TODO:播放完毕后切换到默认视频画面
         }
     }
 }
